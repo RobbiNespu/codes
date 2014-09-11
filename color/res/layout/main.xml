@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Layout" >
+
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RadioGroup android:id="@+id/backgroundColors"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton android:id="@+id/putihButton"
+        android:text="@string/putihButton"
+        style="@style/creatorb"
+        android:checked="true"/>
+    <RadioButton android:id="@+id/merahButton"
+        android:text="@string/merahButton"
+        style="@style/creatorb"/> 
+    <RadioButton android:id="@+id/biruButton"
+        android:text="@string/biruButton"
+        style="@style/creatorb"/>
+    <RadioButton android:id="@+id/hijauButton"
+        android:text="@string/hijauButton"
+        style="@style/creatorb"/>
+    <RadioButton android:id="@+id/hitamButton"
+        android:text="@string/hitamButton"
+        style="@style/creatorb"/>
+    <RadioButton android:id="@+id/unguButton"
+        android:text="@string/unguButton"
+        style="@style/creatorb"/>
+    <RadioButton android:id="@+id/kuningButton"
+        android:text="@string/kuningButton"
+        style="@style/creatorb"/>
+    <RadioButton android:id="@+id/coklatButton"
+        android:text="@string/coklatButton"
+        style="@style/creatorb"/>
+    <RadioButton android:id="@+id/pinkButton"
+        android:text="@string/pinkButton"
+        style="@style/creatorb"
+        android:checked="true"/>
+    <RadioButton android:id="@+id/abuButton"
+        android:text="@string/abuButton"
+        style="@style/creatorb"
+        android:checked="true"/>
+    <RadioButton android:id="@+id/emasButton"
+        android:text="@string/emasButton"
+        style="@style/creatorb"
+        android:checked="true"/>
+    <RadioButton android:id="@+id/orangeButton"
+        android:text="@string/orangeButton"
+        style="@style/creatorb"
+        android:checked="true"/>
+    <RadioButton android:id="@+id/silverButton"
+        android:text="@string/silverButton"
+        style="@style/creatorb"
+        android:checked="true"/>
+</RadioGroup>
+</ScrollView>
+</LinearLayout>

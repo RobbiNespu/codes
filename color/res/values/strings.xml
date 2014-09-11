@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Warna</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_colors">Colors</string>
+    <string name="putihButton">Putih</string>
+    <string name="merahButton">Merah</string>
+    <string name="biruButton">Biru</string>
+    <string name="hijauButton">Hijau</string>
+    <string name="hitamButton">Hitam</string>
+    <string name="unguButton">Ungu</string>
+    <string name="kuningButton">Kuning</string>
+    <string name="coklatButton">Coklat</string>
+    <string name="pinkButton">Pink</string>
+    <string name="abuButton">Abu Abu</string>
+    <string name="emasButton">Emas</string>
+    <string name="orangeButton">Orange</string>
+    <string name="silverButton">Silver</string>
+</resources> 
